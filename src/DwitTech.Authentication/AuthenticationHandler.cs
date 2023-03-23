@@ -23,9 +23,9 @@ namespace DwitTech.Authentication
                     ValidateIssuer = true,
                     ValidateLifetime = true,
                     ValidateAudience = false,
-                    ValidIssuer = configuration["Jwt:Issuer"],
+                    ValidIssuer = configuration["JWT_ISSUER"],
                     ValidAlgorithms = new[] { SecurityAlgorithms.HmacSha256 },
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["JWT_KEY"]))
                 };
             });
         }
