@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DwitTech-Authorization-Library</id>
+    <version>1.0.0</version>
+    <authors>Dwit-Tech Interns</authors>
+    <owners>Dwit-Tech</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package to handle authorization in projects, using Jwt tokens</description>
+  </metadata>
+</package>
