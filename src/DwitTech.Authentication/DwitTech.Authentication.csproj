@@ -9,12 +9,11 @@
 
     <!-- A list of tags to help the search engine to understand the content of the package -->
     <PackageTags>sample, library</PackageTags>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl></RepositoryUrl>
-    <RepositoryType></RepositoryType>
-    <RepositoryCommit></RepositoryCommit>
+    <RepositoryUrl>https://github.com/Dwit-Tech/authorization-library</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryCommit>OK</RepositoryCommit>
     <ProjectUrl>https://github.com/Dwit-Tech/authorization-library</ProjectUrl>
     
 
@@ -26,6 +25,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReleaseNotes>New Package</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
   
   
@@ -50,6 +53,10 @@
         - Recommended dimensions: 128x128
         - Maximum size: 1MB
     -->
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="icon.png" Pack="true" PackagePath="" />
     <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
