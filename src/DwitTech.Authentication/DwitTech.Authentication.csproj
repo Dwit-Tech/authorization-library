@@ -12,6 +12,11 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <RepositoryCommit></RepositoryCommit>
+    <ProjectUrl>https://github.com/Dwit-Tech/authorization-library</ProjectUrl>
+    
 
   </PropertyGroup>
   
@@ -21,6 +26,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -36,6 +51,6 @@
         - Maximum size: 1MB
     -->
     <None Include="icon.png" Pack="true" PackagePath="" />
-    <None Include="README.md" Pack="true" PackagePath=""/>
+    <None Include="README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 </Project>
