@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DwitTech.Authentication", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{5AEF5022-48CC-46D3-990F-6D499AD6B90C}"
 	ProjectSection(SolutionItems) = preProject
+		..\DwitTech-Authorization-Library.nuspec = ..\DwitTech-Authorization-Library.nuspec
 		..\.github\workflows\main.yml = ..\.github\workflows\main.yml
 	EndProjectSection
 EndProject
