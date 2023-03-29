@@ -29,6 +29,7 @@
     <PackageReleaseNotes>New Package</PackageReleaseNotes>
     <IncludeSymbols>True</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   
   
